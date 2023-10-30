@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The last of us</title>
+    <style>
+        * {
+            border: none;
+        }
+        body {
+            background-image: url(imagens/ellie.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        @keyframes slide {
+            0%{
+                background-position-x: 100%;
+            }
+            100%{
+                background-position: 400%;
+            }
+        }
+        img {
+            display: inline-block;
+            margin-top: 35px;
+            margin-left: 55px;
+        }
+        audio {
+            margin-top: 12px;
+            transition: 0.2s;
+        }
+        audio:hover {
+            transform: scale(1.2);
+        }
+        .conteudo {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .divisao {
+            display: flex;
+            flex-direction: column;
+            margin-left: 555px;
+            margin-bottom: 300px;
+            margin-right: 55px;
+        }
+        .divisao2 {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 25px;
+        }
+        button {
+            background-color: blue;
+            border-radius: 25px;
+            cursor: pointer;
+            color: white;
+            font-size: 25px;
+            padding: 11px;
+            padding-left: 45px;
+            padding-right: 45px;
+            transition: 0.2s;
+        }
+        button:hover {
+            transform: scale(1.2);
+            background-color: darkblue;
+        }
+        audio {
+            margin-left: 25px;
+        }
+    </style>
+</head>
+<body>
+    <main class="conteudo">
+        <div class="divisao3">
+            <img width="425px" src="imagens/logo tje last of us.png" alt="">
+        </div>
+        <div class="divisao">
+            <div class="divisao2">
+                <a target="_blank" href="https://www.youtube.com/watch?v=16RlfA39vhM"><button>Trailer</button></a>
+                <a target="_blank" href="https://store.playstation.com/pt-br/product/UP9000-CUSA07820_00-THELASTOFUSPART2"><button>Comprar</button></a>
+            </div>
+            <audio controls src="audio/SnapInsta.io - The Last Of us - Theme song (128 kbps).mp3"></audio>
+        </div>
+    </main>
+</body>
+</html>
