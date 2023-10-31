@@ -1,3 +1,4 @@
 # Projeto landing page the last of us
 Uma landing page do jogo the last of us 🎮 <br><br>
-<a href="https://joaovitor2004.github.io/landing-page-the-last-of-us/" target="_blank">Link para acessar o site</a>
+![captura de tela](https://github.com/JoaoVitor2004/landing-page-the-last-of-us/assets/143558833/a0aba778-1cac-45b8-bcb8-6ee5c5eea5fd) <br><br>
+[Link para acessar o site]()
