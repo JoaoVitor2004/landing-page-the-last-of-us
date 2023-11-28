@@ -5,7 +5,11 @@ Uma landing page do jogo the last of us contendo dois botões: assitir ao traile
 ![Captura de tela](https://github.com/JoaoVitor2004/landing-page-the-last-of-us/assets/143558833/af27046e-99a9-4fd4-b8ed-6957fa61ed79) <br><br>
 
 ## 📱 Versão em mobile
-<img width="200px" src="src/imagens/Captura de tela 2.jpeg">
+<div style="text-align: center">
+  <img width="200px" src="src/imagens/Captura de tela 2.jpeg">
+</div>
+
+<br>
 
 ## ⛏ Editor de codigo e Tecnologias utilizadas
 - Visual studio code
