@@ -1,9 +1,21 @@
-# Projeto landing page the last of us
-Uma landing page do jogo the last of us 🎮 <br><br>
-![captura de tela](https://github.com/JoaoVitor2004/landing-page-the-last-of-us/assets/143558833/a0aba778-1cac-45b8-bcb8-6ee5c5eea5fd) <br><br>
-<h2>Tecnologias utilizadas</h2>
-<ul>
-  <li>HTML</li>
-  <li>CSS</li>
-</ul> <br>
-<a href="https://joaovitor2004.github.io/landing-page-the-last-of-us/">LInk para acessar o site</a>
+# Projeto the last of us
+Uma landing page do jogo the last of us contendo dois botões: assitir ao trailer, e de comprar o jogo, foi usado flexbox para posicionar os elementos na tela e estando totalmemte responsivo 🎮 <br><br>
+
+  ## 💻 Versão em Desktop
+  <img  style="inlne-block;" src="src/imagens/Captura de tela.PNG">
+
+  ## 📱 Versão em mobile
+  <div style="text-align: center">
+  <img width="200px" src="src/imagens/Captura de tela 2.jpeg">
+  </div>
+  
+  <br><br>
+
+## ⛏ Editor de codigo e Tecnologias utilizadas
+- Visual studio code
+  
+  -  HTML
+  - CSS
+<br><br>
+
+<p>🔗 <a href="https://joaovitor2004.github.io/landing-page-the-last-of-us/">Link para acessa o site</a></p>
