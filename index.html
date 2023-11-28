@@ -4,100 +4,21 @@
     <meta charset="UTF-8">
     <meta name="description" content="landing page simples com um audio e dois botões de ver trailer e comprar o jogo">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
     <title>The last of us</title>
-    <style>
-        * {
-            border: none;
-        }
-        body {
-            background-image: url(imagens/ellie.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            width: 100%;
-            height: 100vh;
-            overflow: hidden;
-        }
-        img {
-            display: inline-block;
-            margin-top: 35px;
-            margin-left: 55px;
-        }
-        audio {
-            margin-top: 12px;
-            transition: 0.2s;
-        }
-        audio:hover {
-            transform: scale(1.2);
-        }
-        .conteudo {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-        }
-        .divisao {
-            display: flex;
-            flex-direction: column;
-            margin-left: 300px;
-            margin-bottom: 200px;
-            margin-right: 55px;
-        }
-        .divisao2 {
-            display: flex;
-            gap: 30px;
-            margin-bottom: 25px;
-        }
-        button {
-            background-color: blue;
-            border-radius: 25px;
-            cursor: pointer;
-            color: white;
-            font-size: 25px;
-            padding: 11px;
-            padding-left: 45px;
-            padding-right: 45px;
-            transition: 0.2s;
-        }
-        button:hover {
-            transform: scale(1.2);
-            background-color: darkblue;
-        }
-        audio {
-            margin-left: 25px;
-        }
-
-
-
-        @media (max-width: 430px) {
-            .divisao3 img {
-                width: 300px;
-            }
-            .conteudo {
-                display: flex;
-                flex-direction: column;
-            }
-            .divisao {
-                margin: 0;
-                padding-top: 50px;
-            }
-            button {
-                font-size: 21px;
-                padding: 11px 40px;
-            }
-        }
-    </style>
 </head>
 <body>
     <main class="conteudo">
         <div class="divisao3">
-            <img width="380px" src="imagens/logo tje last of us.png" alt="">
+            <img width="380px" src="src/imagens/logo tje last of us.png" alt="">
         </div>
         <div class="divisao">
             <div class="divisao2">
                 <a target="_blank" href="https://www.youtube.com/watch?v=16RlfA39vhM"><button>Trailer</button></a>
                 <a target="_blank" href="https://store.playstation.com/pt-br/product/UP9000-CUSA07820_00-THELASTOFUSPART2"><button>Comprar</button></a>
             </div>
-            <audio controls src="audio/SnapInsta.io - The Last Of us - Theme song (128 kbps).mp3"></audio>
+            <audio controls src="src/audio/SnapInsta.io - The Last Of us - Theme song (128 kbps).mp3"></audio>
         </div>
     </main>
 </body>
