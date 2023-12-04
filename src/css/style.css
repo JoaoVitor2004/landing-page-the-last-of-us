@@ -1,6 +1,7 @@
 * {
     border: none;
 }
+
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.511), rgba(0, 0, 0, 0.451)), url(../imagens/ellie.jpg);
     background-size: cover;
@@ -10,18 +11,23 @@ body {
     height: 100vh;
     overflow: hidden;
 }
+
 img {
     display: inline-block;
     margin-top: 35px;
     margin-left: 55px;
 }
+
 audio {
     margin-top: 12px;
     transition: 0.2s;
+    margin-left: 25px;
 }
+
 audio:hover {
     transform: scale(1.2);
 }
+
 .conteudo {
     display: flex;
     flex-direction: row;
@@ -30,6 +36,7 @@ audio:hover {
     height: 100vh;
     flex-wrap: wrap;
 }
+
 .divisao {
     display: flex;
     flex-direction: column;
@@ -37,14 +44,17 @@ audio:hover {
     margin-bottom: 200px;
     margin-right: 55px;
 }
+
 .conteudo .divisao3 img {
     margin-bottom: 100px
 }
+
 .divisao2 {
     display: flex;
     gap: 30px;
     margin-bottom: 25px;
 }
+
 button {
     background-color: blue;
     border-radius: 25px;
@@ -56,10 +66,8 @@ button {
     padding-right: 45px;
     transition: 0.2s;
 }
+
 button:hover {
     transform: scale(1.2);
     background-color: darkblue;
-}
-audio {
-    margin-left: 25px;
 }
