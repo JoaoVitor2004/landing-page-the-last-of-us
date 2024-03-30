@@ -8,15 +8,17 @@
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/responsivo.css">
     <script src="src/js/script.js" defer></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>The last of us</title>
 </head>
 
 <body>
     <main class="conteudo">
-        <div class="divisao3">
+        <div class="divisao3" data-aos="fade-down">
             <img width="380px" src="src/imagens/logo tje last of us.png" alt="">
         </div>
-        <div class="divisao">
+        <div class="divisao" data-aos="fade-down">
             <div class="divisao2">
                 <button id="abrir">Trailer</button>
                 <a target="_blank"
@@ -26,10 +28,16 @@
         </div>
         <div id="fade" class="hide"></div>
         <div id="modal" class="hide">
-            <button id="fechar">X</button>
+            <button id="fechar" class="btn-class-name">
+                <span class="back"></span>
+                <span class="front">Sair</span>
+              </button>
             <iframe id="iframe" width="560" height="315" src="https://www.youtube.com/embed/W2Wnvvj33Wo?si=XVn6M_6GEk33qao2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     </main>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
