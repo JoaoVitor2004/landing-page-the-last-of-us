@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="landing page simples com um audio e dois botões de ver trailer e comprar o jogo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+    <script src="src/js/script.js" defer></script>
+    <title>The last of us</title>
+</head>
+
+<body>
+    <main class="conteudo">
+        <div class="divisao3">
+            <img width="380px" src="src/imagens/logo tje last of us.png" alt="">
+        </div>
+        <div class="divisao">
+            <div class="divisao2">
+                <button id="abrir">Trailer</button>
+                <a target="_blank"
+                    href="https://store.playstation.com/pt-br/product/UP9000-CUSA07820_00-THELASTOFUSPART2"><button id="comprar">Comprar</button></a>
+            </div>
+            <audio controls src="src/audio/SnapInsta.io - The Last Of us - Theme song (128 kbps).mp3"></audio>
+        </div>
+        <div id="fade" class="hide"></div>
+        <div id="modal" class="hide">
+            <button id="fechar">X</button>
+            <iframe id="iframe" width="560" height="315" src="https://www.youtube.com/embed/W2Wnvvj33Wo?si=XVn6M_6GEk33qao2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </main>
+</body>
+
+</html>

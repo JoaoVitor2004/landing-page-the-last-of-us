@@ -1,0 +1,117 @@
+* {
+    border: none;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.511), rgba(0, 0, 0, 0.451)), url(../imagens/ellie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+audio {
+    margin-top: 12px;
+    transition: 0.2s;
+    margin-left: 25px;
+}
+
+audio:hover {
+    transform: scale(1.2);
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.divisao {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-bottom: 200px;
+    margin-right: 55px;
+}
+
+.conteudo .divisao3 img {
+    display: inline-block;
+    margin-bottom: 100px;
+    margin-top: 35px;
+    margin-left: 55px;
+}
+
+.divisao2 {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+
+button {
+    background-color: blue;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    padding: 11px;
+    padding-left: 45px;
+    padding-right: 45px;
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+#fade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+}
+
+#modal {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#fechar {
+    background-color: red;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    padding: 10px 45px;
+    transition: 0.2s ease-in-out;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+#fechar-modal:hover {
+    transform: scale(1.2);
+}
+
+#fade.hide,
+#modal.hide {
+    opacity: 0;
+    pointer-events: none;
+    top: 0;
+}
+
+#modal,#fade {
+    opacity: 1;
+    transition: 0.2s ease-in-out;
+    pointer-events: all;
+}
