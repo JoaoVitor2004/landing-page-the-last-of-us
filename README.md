@@ -2,8 +2,7 @@
 
 Landing page do jogo the last of us part II contendo dois botões: assitir ao trailer, e de comprar o jogo, usado flexbox para posicionar os elementos na tela e estando responsivo.
 
-![Captura de tela](https://github.com/JoaoVitor2004/landing-page-the-last-of-us/assets/143558833/ee9a395a-e969-4dc0-92c6-3dc0326b2dd2)
-
+![Captura de tela](https://github.com/JoaoVitor2004/landing-page-the-last-of-us/assets/143558833/26638d0f-e616-4496-9248-35a7272248bf)
 
 ## ⛏ Ferramenta e tecnologias utilizadas
 - Visual studio code
